@@ -1,2 +1,6 @@
 ---
 # vars file for router
+router_packages:
+  - ufw
+  - net-tools
+  - traceroute

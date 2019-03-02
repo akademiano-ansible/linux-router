@@ -1,4 +1,11 @@
 ---
+
+- name: Install base packages
+  become: yes
+  apt:
+    name: "{{router_packages}}"
+    state: latest
+
 - name: ufw forward
   include_tasks: 'ufw_forward.yml'
 

@@ -6,8 +6,8 @@
     name: "{{router_packages}}"
     state: latest
 
-- name: ufw forward
-  include_tasks: 'ufw_forward.yml'
+#- name: ufw forward
+#  include_tasks: 'ufw_forward.yml'
 
-- name: ufw rules
-  include_tasks: 'ufw.yml'
+#- name: ufw rules
+#  include_tasks: 'ufw.yml'
